@@ -3,14 +3,15 @@
 
 
 ## Table of contents
-* [CaraKerjaInterrupt](#CaraKerjaInterrupt)
-* [_putInMemory](#_putInMemory)
-* [_interrupt](#_interrupt)
-* [_makeInterrupt21](#_makeInterrupt21)
-* [_handleInterrupt21](#_handleInterrupt21)
+* [Cara Kerja Interrupt](#Cara_Kerja_Interrupt)
+* [Cara Kerja kernel.asm](#Cara_Kerja_kernel.asm)
+  * [_putInMemory](#_putInMemory)
+  * [_interrupt](#_interrupt)
+  * [_makeInterrupt21](#_makeInterrupt21)
+  * [_handleInterrupt21](#_handleInterrupt21)
 * [Author](#author)
 
-## CaraKerjaInterrupt
+## Cara Kerja Interrupt
 Interrupt adalah sebuah proses pada komputer yang meminta untuk dilayani oleh prosesor. Interupsi terjadi bila suatu perangkat Input/output ingin memberitahu prosesor bahwa ia siap menerima perintah, output sudah dihasilkan,atau terjadi error.
 Langkah kerja nya : 
 1. Controller mengirimkan sinyal interupsi melalui interrupt-requestline, lalu Sinyal interupsi tersebut dideteksi oleh prosesor. 
@@ -21,6 +22,7 @@ Langkah kerja nya :
 
 ## Cara kerja kernel.asm 
 Pada sistem operasi kami, terdapat sebuah kernel sederhana. Kernel ini berisikan 4 fungsi utama. 
+Berikut adalah penjelan 4 fungsi utama tersebut : 
 
 ### _putInMemory
 void putInMemory (int segment, int address, char character)
