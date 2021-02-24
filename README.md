@@ -25,24 +25,24 @@ Pada sistem operasi kami, terdapat sebuah kernel sederhana. Kernel ini berisikan
 Berikut adalah penjelan 4 fungsi utama tersebut : 
 
 >### _putInMemory
-void putInMemory (int segment, int address, char character)
-Fungsi ini menulis sebuah karakter pada segment memori dengan offset tertentu
+>void putInMemory (int segment, int address, char character)
+>Fungsi ini menulis sebuah karakter pada segment memori dengan offset tertentu
 
 
 >### _interrupt
-Fungsi ini memanggil sebuah interrupt dengan nomor tertentu dan juga meneruskan
-parameter AX, BX, CX, DX berukuran 16-bit ke interrupt tersebut
+>Fungsi ini memanggil sebuah interrupt dengan nomor tertentu dan juga meneruskan
+>parameter AX, BX, CX, DX berukuran 16-bit ke interrupt tersebut
 
 
 >### _makeInterrupt21
-Fungsi ini mempersiapkan tabel interrupt vector untuk memanggil kode Anda jika
-interrupt 0x21 terpanggil
+>Fungsi ini mempersiapkan tabel interrupt vector untuk memanggil kode Anda jika
+>interrupt 0x21 terpanggil
 
 
 
 >### _handleInterrupt21
-Fungsi ini dipanggil saat terjadi interrupt nomor 0x21. Implementasi interrupt 0x21 pada
-kernel dilakukan di sini
+>Fungsi ini dipanggil saat terjadi interrupt nomor 0x21. Implementasi interrupt 0x21 pada
+>kernel dilakukan di sini
 
 
 ## Author
