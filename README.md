@@ -3,14 +3,14 @@
 
 
 ## Table of contents
-* [Cara Kerja Interrupt](#Cara Kerja Interrupt)
+* [CaraKerjaInterrupt](#CaraKerjaInterrupt)
 * [_putInMemory](#_putInMemory)
 * [_interrupt](#_interrupt)
 * [_makeInterrupt21](#_makeInterrupt21)
 * [_handleInterrupt21](#_handleInterrupt21)
 * [Author](#author)
 
-## Cara Kerja Interrupt
+## CaraKerjaInterrupt
 Interrupt adalah sebuah proses pada komputer yang meminta untuk dilayani oleh prosesor. Interupsi terjadi bila suatu perangkat Input/output ingin memberitahu prosesor bahwa ia siap menerima perintah, output sudah dihasilkan,atau terjadi error.
 Langkah kerja nya : 
 1. Controller mengirimkan sinyal interupsi melalui interrupt-requestline, lalu Sinyal interupsi tersebut dideteksi oleh prosesor. 
