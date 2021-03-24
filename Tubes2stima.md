@@ -1,6 +1,12 @@
-# AMOGUS
->Tugas Besar IF2211 Strategi Algoritma kelompok 52 Amogus
+# Engimon : Adventures in Concordia
 
+> [Diagram](https://lucid.app/lucidchart/cab290b7-7460-443f-ae90-416e69a1e83c/edit?shared=true&page=0_0#) | [Laporan](https://drive.google.com/file/d/1NEzRfUXipe4lRQEI02au3mAHiK-dT4ia/view)
+
+**Compiling**
+
+```
+g++ main.cpp Engimon.cpp loadSkill.cpp loadSpecies.cpp Map.cpp Skill.cpp
+```
 
 ## Table of contents
 * [General info](#general-info)
@@ -11,15 +17,14 @@
 * [Contact](#contact)
 
 ## General info
-Project ini dibuat untuk memenuhi tugas besar 2 mata kuliah IF2211 Strategi Algoritma. 
-Kami diberikan Tugas untuk membuat sebuah mesin pencarian teman yang menggunakan Algoritma Graph traversal yang menggunakan DFS dan BFS. 
+Project ini dibuat untuk memenuhi tugas besar 1 mata kuliah IF2210/Pemrograman Berorientasi Objek. 
+Kami diberikan Tugas untuk membuat sebuah game RPG yang memiliki nama engimon dengan menggunakan bahasa C++ dan konsep OOP. 
 
 
 
 ## Setup
-program ini dapat dijalankan dengan beberapa syarat : 
-- install python (https://www.python.org/downloads/)
-- install 
+program ini dapat dijalankan dengan syarat : 
+- install C++ (https://www.cs.odu.edu/~zeil/cs250PreTest/latest/Public/installingACompiler/#installing-a-c-compiler-on-microsoft-windows)
 
 
 ## How to Run
@@ -33,16 +38,17 @@ cara menjalankan program :
 
 ## Features
 Fitur yang terdapat dalam program ini 
-* Upload file dengan format .txt
-* Pencarian teman dengan menggunakan BFS
-* Pencarian teman dengan menggunakan DFS
-* Friend recommendation berdasarkan mutual friends 
+* satu 
+* dua 
 
 ## Status
 project sudah selesai
 
 ## Contact
 Created by 
-- Bryan Rinaldo 13519103
-- Safiq Faray 13519145
-- Farrel Abieza Zidan 13519182
+- 13519062 / Feralezer Leonard Gorga Tampubolon
+- 13519063 / Melita
+- 13519076 / Moses Ananta
+- 13519083 / Shaffira Alya Mevia
+- 13519103 / Bryan Rinaldo
+
